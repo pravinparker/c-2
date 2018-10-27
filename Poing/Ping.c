@@ -3,7 +3,7 @@
 #include <string.h>
 #include "Poing.h"
 
-static void error (const char *s) __attribute__ ((noreturn));
+static void error (const char *s) __attribute__ ((noreturn));// declared as global function
 
 int main (int argc, char *argv[]) {
     soc_token soc = init_soc;
